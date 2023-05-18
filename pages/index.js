@@ -32,7 +32,6 @@ export default function IndexPage() {
     <div className="min-h-full bg-gray-100 flex flex-col items-center">
       {/* <Image src="/images/logo.jpg" width={200} height={200} alt="ฟูจิ" /> */}
       <form
-        div
         className="w-1/2 flex flex-col items-end"
         onSubmit={(event) => {
           event.preventDefault();
@@ -41,7 +40,7 @@ export default function IndexPage() {
         }}
       >
         <div className="w-full mt-32 bg-white p-6 rounded-lg shadow">
-          <div className="w-full bg-black p-4 rounded-lg shadow-;g">
+          <div className="w-full bg-blue-400 p-4 rounded-lg shadow-;g">
             <input
               type="text"
               onChange={({ target: { value } }) => setName(value)}
